@@ -84,7 +84,7 @@ export default function Game() {
   });
 
   return (
-    <div className="game">
+    <div className="game">이 게임은 정말 재미있습니다!
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
