@@ -84,7 +84,12 @@ export default function Game() {
   });
 
   return (
-    <div className="game">이 게임은 정말 재미있습니다!
+    <div className="game">
+      <div>
+        이 게임은 정말 재미있습니다!
+        이 게임은 정말 재미있습니다!
+        이 게임은 정말 재미있습니다!
+      </div>
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
