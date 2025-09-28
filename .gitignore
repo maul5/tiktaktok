@@ -1,0 +1,40 @@
+# ---- dependencies
+node_modules/
+.pnpm-store/
+.pnp.*
+# lock 파일은 유지 권장: package-lock.json / yarn.lock / pnpm-lock.yaml
+
+# ---- build outputs / caches
+dist/
+build/
+.next/
+out/
+.vite/
+.cache/
+.parcel-cache/
+.babel-cache/
+*.tsbuildinfo
+.eslintcache
+storybook-static/
+
+# ---- env & local config (예시는 올리지 않음, 대신 .env.example 만들어 공유)
+.env
+.env.*
+!.env.example
+
+# ---- logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- tools / platforms
+.vercel/
+.netlify/
+
+# ---- editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
